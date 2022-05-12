@@ -44,7 +44,7 @@ const Navbar = props => {
       position="fixed"
       as='nav'
       w="100%"
-      bg={useColorModeValue('#ffffff40', '#20202380')}
+      bg={useColorModeValue('#F2E3B340', '#75044D60')}
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={1}
       justify="space-between"
@@ -73,12 +73,9 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Work
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem>
           <LinkItem 
             target="_blank"
-            href="https://github.com/feeee-creator" 
+            href="https://github.com/Feelpe/portfolio" 
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -105,9 +102,6 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
-                </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}

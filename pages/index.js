@@ -16,7 +16,7 @@ import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { BioSection, BioYear } from '../components/bio';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import { IoLogoGithub } from 'react-icons/io5';
+import { IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5';
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -76,7 +76,7 @@ const Home = () => (
         <Paragraph>Paragraph</Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
               My portfolio
             </Button>
           </NextLink>
@@ -105,24 +105,26 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/feeee-creator" target="_blank">
+            <Link href="https://github.com/Feelpe" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="pink"
                 leftIcon={<IoLogoGithub />}
               >
-                @feeee-creator
+                @feelpe
+              </Button>
+            </Link>
+            <Link href="https://www.linkedin.com/in/felipe-creator" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="pink"
+                leftIcon={<IoLogoLinkedin />}
+                >
+                @felipe-creator
               </Button>
             </Link>
           </ListItem>
         </List>
-        <Box align="center" my={4}>
-          <NextLink href="/posts" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
     </Container>
   </Layout>
