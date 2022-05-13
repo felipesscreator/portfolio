@@ -44,7 +44,7 @@ const Navbar = props => {
       position="fixed"
       as='nav'
       w="100%"
-      bg={useColorModeValue('#F2E3B340', '#75044D60')}
+      bg={useColorModeValue('#F2E3B380', '#75044D60')}
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={1}
       justify="space-between"
@@ -105,7 +105,8 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/feeee-creator"
+                  target="_blank"
+                  href="https://github.com/Feelpe/portfolio"
                 >
                   View Source(link para repositorio)
                 </MenuItem>

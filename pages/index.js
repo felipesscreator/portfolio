@@ -75,7 +75,7 @@ const Home = () => (
         </Heading>
         <Paragraph>Paragraph</Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" scroll={false}>
+          <NextLink href='/works' passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
               My portfolio
             </Button>
