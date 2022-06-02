@@ -18,7 +18,7 @@ const Work = () => (
       </Title>
       <P>
         A website for restaurants with menu, order manager and user account.
-        I used Javascript on the back and front, but I only used typescript on the BackEnd.
+        I&apos;ve used Javascript on both the frontend and backend sides of the project, but I only used typescript on the BackEnd.
         For database I used PostgreSQL.
       </P>
       <List ml={4} my={4}>

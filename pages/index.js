@@ -96,7 +96,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
-          Started studying programming at Blue-Edtech.
+          Studying programming at Blue-Edtech.
         </BioSection>
       </Section>
       <Section delay={0.3}>

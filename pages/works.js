@@ -19,7 +19,7 @@ const Works = () => (
             title="Restaurant Menu" 
             thumbnail={thumbMenu}
           >
-            A website for restaurants with menu, order manager and user account.
+            A website for restaurants with a menu, order manager and user account.
           </WorkGridItem>
         </Section>        
       </SimpleGrid>
