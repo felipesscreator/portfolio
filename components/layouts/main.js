@@ -8,6 +8,13 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Felipe's homepage" />
+        <meta name="author" content="Felipe Silva" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <meta property="og:site_name" content="Felipe Silva" />
+        <meta name="og:title" content="Felipe Silva" />
+        <meta property="og:type" content="website" />
         <title>Felipe Silva - Homepage</title>
       </Head>
 

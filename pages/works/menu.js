@@ -14,12 +14,14 @@ const Work = () => (
   <Layout title="Menu">
     <Container>
       <Title>
-        Restaurant Menu <Badge>2021-</Badge>
+        Restaurant System <Badge>2021-</Badge>
       </Title>
       <P>
-        A website for restaurants with menu, order manager and user account.
-        I&apos;ve used Javascript on both the frontend and backend sides of the project, but I only used typescript on the BackEnd.
-        For database I used PostgreSQL.
+        A system for restaurants with menu, order manager, and user account.
+      </P>
+      <P>
+        I chose Javascript for the entire project, in the Frontend I used React.js and axios.js and in the Backend I used Nest.js. For the database, I used PostgreSQL with Prisma.
+        I chose these frameworks because of their practicality.          
       </P>
       <List ml={4} my={4}>
         <ListItem>

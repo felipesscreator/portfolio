@@ -16,10 +16,10 @@ const Works = () => (
         <Section>
           <WorkGridItem 
             id="menu" 
-            title="Restaurant Menu" 
+            title="Restaurant System" 
             thumbnail={thumbMenu}
           >
-            A website for restaurants with a menu, order manager and user account.
+            A System for restaurants with a menu, order manager, and user account.
           </WorkGridItem>
         </Section>        
       </SimpleGrid>
@@ -32,3 +32,4 @@ const Works = () => (
 
 
 export default Works
+export { getServerSideProps } from '../components/chakra';
