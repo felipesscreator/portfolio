@@ -74,7 +74,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hi, I&apos;m Felipe, a FullStack developer whose primary language is JavaScript, but I always try to learn a little bit of everything. I&apos;m looking for a job in the area to delve into what benefits the company.
+          Hi, I&apos;m Felipe, a FullStack developer whose primary language is JavaScript, but I always try to learn a little bit of everything.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href='/works' passHref scroll={false}>
