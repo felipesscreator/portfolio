@@ -26,13 +26,13 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://restaurantmenu.vercel.app/">
+          <Link href="https://restaurantmenu.vercel.app/" target="_blank">
             Click for see in Web <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>FrontEnd</Meta>
-          <span>NodeJS, React, Bootstrap, Styled-components</span>
+          <span>React, Bootstrap, Styled-components</span>
         </ListItem>
         <ListItem>
           <Meta>BackEnd</Meta>
