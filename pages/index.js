@@ -56,11 +56,11 @@ const Home = () => (
             display="inline-block" 
             borderRadius="full" 
             overflow='hidden'
-            src="/images/felipe.jpg" 
+            src="https://github.com/Feelpe.png" 
             alt="Profile Image"
           >
             <ProfileImage 
-              src="https://github.com/Feelpe.jpg"
+              src="https://github.com/Feelpe.png"
               alt="Profile Image"
               borderRadius="full" 
               width="100%"
