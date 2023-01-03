@@ -60,7 +60,7 @@ const Home = () => (
             alt="Profile Image"
           >
             <ProfileImage 
-              src="/images/felipe.jpg" 
+              src="https://github.com/Feelpe.jpg"
               alt="Profile Image"
               borderRadius="full" 
               width="100%"
