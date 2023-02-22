@@ -76,7 +76,9 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Hi, I&apos;m Felipe, a FullStack developer whose primary language is
-          JavaScript, but I always try to learn a little bit of everything.
+          JavaScript. Currently, I&apos;m looking for a job opportunity and
+          working on some personal projects. I love learning, technology, and
+          applying knowledge to solve problems.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -99,8 +101,16 @@ const Home = () => (
           Worked with cellphone maintenance in a startup.
         </BioSection>
         <BioSection>
-          <BioYear>2021 to present</BioYear>
+          <BioYear>2021 - 2022</BioYear>
           Studying programming at Blue-Edtech.
+        </BioSection>
+        <BioSection>
+          <BioYear>2022 to present</BioYear>
+          Studying programming at Rocketseat.
+        </BioSection>
+        <BioSection>
+          <BioYear>2022 to present</BioYear>
+          Freelance.
         </BioSection>
       </Section>
       <Section delay={0.3}>
